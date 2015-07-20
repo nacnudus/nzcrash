@@ -1,0 +1,88 @@
+movement_row,movement_column,movement_category,movement_description
+A,A,Overtaking and lane change,Pulling out or changing lane to right
+A,B,Overtaking and lane change,Head on
+A,C,Overtaking and lane change,Cutting in or changing lane to left
+A,D,Overtaking and lane change,Lost control (overtaking vehicle)
+A,E,Overtaking and lane change,Side road
+A,F,Overtaking and lane change,Lost control (overtaken vehicle)
+A,G,Overtaking and lane change,Weaving in heavy traffic
+A,O,Overtaking and lane change,Other
+B,A,Head on,On straight
+B,B,Head on,Cutting corner
+B,C,Head on,Swinging wide
+B,D,Head on,Both or unknown
+B,E,Head on,Lost control on straight
+B,F,Head on,Lost control on curve
+B,O,Head on,Other
+C,A,Lost controol or off road (straight roads),Out of control on roadway
+C,B,Lost controol or off road (straight roads),Off roadway to left
+C,C,Lost controol or off road (straight roads),Off roadway to right
+C,O,Lost controol or off road (straight roads),Other
+D,A,Cornering,Lost control turning right
+D,B,Cornering,Lost control turning left
+D,C,Cornering,Missed intersection or end of road
+D,O,Cornering,Other
+E,A,Collision with obstruction,Parked vehicle
+E,B,Collision with obstruction,Crash or broken down
+E,C,Collision with obstruction,Non-vehicular obstructions (including animals)
+E,D,Collision with obstruction,Workman's vehicle
+E,E,Collision with obstruction,Opening door
+E,O,Collision with obstruction,Other
+F,A,Rear end,Slower vehicle
+F,B,Rear end,Cross traffic
+F,C,Rear end,Queue
+F,D,Rear end,Signals
+F,E,Rear end,Other
+F,F,Rear end,Rear of left turning vehicle
+F,O,Rear end,Other
+G,A,Turning versus same direction,Rear of left turning vehicle
+G,B,Turning versus same direction,Left turn side side swipe
+G,C,Turning versus same direction,Stopped or turning from left side
+G,D,Turning versus same direction,Near centre line
+G,E,Turning versus same direction,Overtaking vehicle
+G,F,Turning versus same direction,Two turning
+G,O,Turning versus same direction,Other
+H,A,Crossing (no turns),Right angle (70 to 110 degrees)
+H,O,Crossing (no turns),Other
+J,A,Crossing (vehicle turning),Right turn right side
+J,B,Crossing (vehicle turning),Opposing right turns
+J,C,Crossing (vehicle turning),Two turning
+J,O,Crossing (vehicle turning),Other
+K,A,Merging,Left turn in
+K,B,Merging,Right turn in
+K,C,Merging,Two turning
+K,O,Merging,Other
+L,A,Right turn against,Stopped waiting to turn
+L,B,Right turn against,Making turn
+L,O,Right turn against,Other
+M,A,Manoeuvring,Parking or leaving
+M,B,Manoeuvring,'U' turn (outside)
+M,C,Manoeuvring,'U' turn (inside)
+M,D,Manoeuvring,Driveway manouvre
+M,E,Manoeuvring,Entering or leaving from opposite side
+M,F,Manoeuvring,Entering or leaving from same side
+M,G,Manoeuvring,Reversing along road
+M,O,Manoeuvring,Other
+N,A,Pedestrians crossing road,Left side
+N,B,Pedestrians crossing road,Right side
+N,C,Pedestrians crossing road,Left turn left side
+N,D,Pedestrians crossing road,Right turn right side
+N,E,Pedestrians crossing road,Left turn right side
+N,F,Pedestrians crossing road,Right turn left side
+N,G,Pedestrians crossing road,Manoeuvring vehicle
+N,O,Pedestrians crossing road,Other
+P,A,Pedestrians other,Walking with traffic
+P,B,Pedestrians other,Walking facing traffic
+P,C,Pedestrians other,Walking on footpath
+P,D,Pedestrians other,Child playing (including tricycle)
+P,E,Pedestrians other,Attending to vehicle
+P,F,Pedestrians other,Entering or leaving vehicle
+P,O,Pedestrians other,Other
+Q,A,Miscellaneous,Fell while boarding or alighting
+Q,B,Miscellaneous,Fell from moving vehicle
+Q,C,Miscellaneous,Train
+Q,D,Miscellaneous,Parked vehicle ran away
+Q,E,Miscellaneous,Equestrian
+Q,F,Miscellaneous,Fell inside vehicle
+Q,G,Miscellaneous,Trailer or load
+Q,O,Miscellaneous,Other

@@ -1,0 +1,430 @@
+code|cause|cause_category|cause_subcategory
+100|NA|Driver control|Alcohol or drugs
+101|Alcohol suspected|Driver control|Alcohol or drugs
+102|Alcohol test below limit|Driver control|Alcohol or drugs
+103|Alcohol test above limit or test refused|Driver control|Alcohol or drugs
+104|Alcohol test result unknown|Driver control|Alcohol or drugs
+105|Intoxicated non-driver (pedestrian / cyclist / passenger)|Driver control|Alcohol or drugs
+106|(MOT only) dead driver not suspect, tested neg|Driver control|Alcohol or drugs
+107|Drug test result unknown|Driver control|Alcohol or drugs
+108|Drugs suspected|Driver control|Alcohol or drugs
+109|Drugs proven|Driver control|Alcohol or drugs
+110|NA|Driver control|Too fast for conditions
+111|Cornering|Driver control|Too fast for conditions
+112|On straight|Driver control|Too fast for conditions
+113|To give way at intersection|Driver control|Too fast for conditions
+114|Approaching railway crossing|Driver control|Too fast for conditions
+115|When passing stationary school bus|Driver control|Too fast for conditions
+116|At temporary speed limit|Driver control|Too fast for conditions
+117|At crash or emergency|Driver control|Too fast for conditions
+120|NA|Driver control|Failed to keep left
+121|Swung wide on bend|Driver control|Failed to keep left
+122|Swung wide at intersection|Driver control|Failed to keep left
+123|Cutting corner on bend|Driver control|Failed to keep left
+124|Cutting corner at intersection|Driver control|Failed to keep left
+125|On straight section|Driver control|Failed to keep left
+126|Vehicle crossed raised median|Driver control|Failed to keep left
+127|Driving or riding abreast (cyclists more than 2 abreast)|Driver control|Failed to keep left
+128|Wandering or wobbling|Driver control|Failed to keep left
+129|Too far left / right|Driver control|Failed to keep left
+130|NA|Driver control|Lost control
+131|When turning|Driver control|Lost control
+132|Under heavy braking|Driver control|Lost control
+133|Under heavy acceleration|Driver control|Lost control
+134|While returning to seal from unsealed shoulder|Driver control|Lost control
+135|Due to road conditions (requires road series code)|Driver control|Lost control
+136|Due to vehicle fault (requires vehicle series code)|Driver control|Lost control
+137|Avoiding another vehicle, pedestrian, party or obstacle on roadway|Driver control|Lost control
+138|On unsealed road|Driver control|Lost control
+139|End of seal|Driver control|Lost control
+140|NA|Driver control|Failed to signal in time
+141|When moving to left, pulling over to left|Driver control|Failed to signal in time
+142|When turning left|Driver control|Failed to signal in time
+143|When pulling out or moving to the right|Driver control|Failed to signal in time
+144|When turning right|Driver control|Failed to signal in time
+145|Incorrect Signal|Driver control|Failed to signal in time
+150|NA|Driver control|Overtaking
+151|Overtaking line of traffic or queue|Driver control|Overtaking
+152|Deliberately in the face of oncoming traffic|Driver control|Overtaking
+153|Failed to notice oncoming traffic|Driver control|Overtaking
+154|Misjudged speed or distance of oncoming traffic|Driver control|Overtaking
+155|At no passing line|Driver control|Overtaking
+156|With insufficient visibility|Driver control|Overtaking
+157|At an intersection without due care|Driver control|Overtaking
+158|On left without due care|Driver control|Overtaking
+159|Cut in after overtaking|Driver control|Overtaking
+160|Vehicle signalling right turn|Driver control|Overtaking
+161|Without care at a pedestrian crossing|Driver control|Overtaking
+170|NA|Driver control|Wrong lane or turned from wrong position
+171|Turned right from incorrect lane|Driver control|Wrong lane or turned from wrong position
+172|Turned left from incorrect lane|Driver control|Wrong lane or turned from wrong position
+173|Travelled straight ahead from turning lane or flush median|Driver control|Wrong lane or turned from wrong position
+174|Turned right from left side of road|Driver control|Wrong lane or turned from wrong position
+175|Turned left from near centre line|Driver control|Wrong lane or turned from wrong position
+176|Turned into incorrect lane|Driver control|Wrong lane or turned from wrong position
+177|Weaving or cut in on multi-lane roads|Driver control|Wrong lane or turned from wrong position
+178|Moved left to avoid slow vehicle|Driver control|Wrong lane or turned from wrong position
+179|Long vehicle tracked outside lane|Driver control|Wrong lane or turned from wrong position
+180|NA|Driver control|In line of traffic
+181|Following too closely|Driver control|In line of traffic
+182|Travelling unreasonably slowly|Driver control|In line of traffic
+183|Motorist crowded cyclist|Driver control|In line of traffic
+184|Incorrect merging /diverging manoeuvre|Driver control|In line of traffic
+190|NA|Driver control|Sudden action
+191|Braked|Driver control|Sudden action
+192|Turned left|Driver control|Sudden action
+193|Turned right|Driver control|Sudden action
+194|Swerved to avoid pedestrian|Driver control|Sudden action
+195|Swerved to avoid animal|Driver control|Sudden action
+196|Swerved to avoid crash or broken down vehicle|Driver control|Sudden action
+197|Swerved to avoid vehicle|Driver control|Sudden action
+198|Swerved to avoid object or for unknown reason|Driver control|Sudden action
+199|Avoiding approaching emergency vehicle|Driver control|Sudden action
+200|NA|Driver control|Forbidden movements
+201|Wrong way in one way street, motorway or roundabout|Driver control|Forbidden movements
+202|When turning or U turning contrary to a sign|Driver control|Forbidden movements
+203|Contrary to ‘in’ or ‘out’ only driveway sign|Driver control|Forbidden movements
+204|Driving or riding on footpath|Driver control|Forbidden movements
+205|On incorrect side of road, island or median|Driver control|Forbidden movements
+206|Contrary to ‘no entry’ sign|Driver control|Forbidden movements
+207|In Car Park|Driver control|Forbidden movements
+208|Motor vehicle in cycle lane|Driver control|Forbidden movements
+209|Bus / Transit lane|Driver control|Forbidden movements
+210|Cyclist riding on ped-xing / ped signals|Driver control|Forbidden movements
+300|NA|Vehicle conflicts|Failed to give way
+301|At Stop sign|Vehicle conflicts|Failed to give way
+302|At Give Way sign|Vehicle conflicts|Failed to give way
+303|When turning to non-turning traffic|Vehicle conflicts|Failed to give way
+304|When deemed turning by markings, not geometry|Vehicle conflicts|Failed to give way
+305|When turning left, to opposing right turning traffic (NOT for crashes occurring after 5am 25th March 2012)|Vehicle conflicts|Failed to give way
+306|To pedestrian on a crossing|Vehicle conflicts|Failed to give way
+307|When turning at signals to pedestrians|Vehicle conflicts|Failed to give way
+308|When entering roadway from driveway|Vehicle conflicts|Failed to give way
+309|To traffic approaching or crossing from the right|Vehicle conflicts|Failed to give way
+310|Failed to give way at one lane bridge / road|Vehicle conflicts|Failed to give way
+311|Failed to give way to pedestrian on footpath or verge|Vehicle conflicts|Failed to give way 
+312|Entering roadway not from driveway or intersection|Vehicle conflicts|Failed to give way  
+313|To emergency vehicle|Vehicle conflicts|Failed to give way
+314|Driver waved through|Vehicle conflicts|Failed to give way
+315|When turning right to opposing left turning traffic (for crashes occurring after 5am 25th March 2012)|Vehicle conflicts|Failed to give way
+316|To traffic approaching or crossing from the left. (for crashes occurring after 5am 25th March 2012|Vehicle conflicts|Failed to give way
+320|NA|Vehicle conflicts|Did not stop
+321|At stop sign|Vehicle conflicts|Did not stop
+322|At steady red light|Vehicle conflicts|Did not stop
+323|At steady red arrow|Vehicle conflicts|Did not stop
+324|At steady amber light|Vehicle conflicts|Did not stop
+325|At steady amber arrow|Vehicle conflicts|Did not stop
+326|At flashing red lights (Rail Xing, Fire Stn etc)|Vehicle conflicts|Did not stop
+327|For police or flag-person|Vehicle conflicts|Did not stop
+328|For school patrol / kea crossing|Vehicle conflicts|Did not stop
+330|NA|Vehicle conflicts|Inattentive: failed to notice
+331|Vehicle slowing, stopping or stationary in front|Vehicle conflicts|Inattentive: failed to notice
+332|Bend in road|Vehicle conflicts|Inattentive: failed to notice
+333|Indication of vehicle in front|Vehicle conflicts|Inattentive: failed to notice
+334|Traffic lights|Vehicle conflicts|Inattentive: failed to notice
+335|Intersection or its Stop / Give Way control|Vehicle conflicts|Inattentive: failed to notice
+336|Other regulatory sign / markings|Vehicle conflicts|Inattentive: failed to notice
+337|Warning sign|Vehicle conflicts|Inattentive: failed to notice
+338|Direction, information signs / markings|Vehicle conflicts|Inattentive: failed to notice
+339|Road-works signs|Vehicle conflicts|Inattentive: failed to notice
+340|Lane use arrows / markings?|Vehicle conflicts|Inattentive: failed to notice
+341|Obstructions on Roadway|Vehicle conflicts|Inattentive: failed to notice
+350|NA|Vehicle conflicts|Attention diverted by:
+351|Passengers|Vehicle conflicts|Attention diverted by:
+352|Scenery or persons outside vehicle|Vehicle conflicts|Attention diverted by:
+353|Other traffic|Vehicle conflicts|Attention diverted by:
+354|Animal or insect in vehicle|Vehicle conflicts|Attention diverted by:
+355|Trying to find intersection, house number, destination|Vehicle conflicts|Attention diverted by:
+356|Advertising or signs|Vehicle conflicts|Attention diverted by:
+357|Emotionally upset /road rage|Vehicle conflicts|Attention diverted by:
+358|Cigarette, radio, heater, AC, glove box, obj under drivers feet/pedals etc|Vehicle conflicts|Attention diverted by:
+359|Cell phone|Vehicle conflicts|Attention diverted by:
+360|NA|Vehicle conflicts|Attention diverted by:
+361|Navigation device|Vehicle conflicts|Attention diverted by:
+362|CB radio/ non cell comms device|Vehicle conflicts|Attention diverted by:
+363|Driver dazzled|Vehicle conflicts|Attention diverted by:
+370|NA|Vehicle conflicts|Did not see or look for another party until too late
+371|Behind when reversing / manoeuvring|Vehicle conflicts|Did not see or look for another party until too late
+372|Behind when changing lanes position or direction (includes U-turns)|Vehicle conflicts|Did not see or look for another party until too late
+373|Behind when pulling out from parked position|Vehicle conflicts|Did not see or look for another party until too late
+374|Behind when opening door or leaving vehicle|Vehicle conflicts|Did not see or look for another party until too late
+375|When required to give way to traffic from another direction|Vehicle conflicts|Did not see or look for another party until too late
+376|When required to give way to pedestrians.|Vehicle conflicts|Did not see or look for another party until too late
+377|When visibility obstructed by other vehicles|Vehicle conflicts|Did not see or look for another party until too late
+378|When visibility limited by roadside features|Vehicle conflicts|Did not see or look for another party until too late
+379|When first in queue on receiving green light|Vehicle conflicts|Did not see or look for another party until too late
+380|NA|Vehicle conflicts|Misjudged speed, distance, size or position of:
+381|Other vehicle coming from behind or alongside|Vehicle conflicts|Misjudged speed, distance, size or position of:
+382|Other vehicle coming from another direction with right of way|Vehicle conflicts|Misjudged speed, distance, size or position of:
+383|Pedestrian movement or intention|Vehicle conflicts|Misjudged speed, distance, size or position of:
+384|Towed vehicle, or while towing a vehicle|Vehicle conflicts|Misjudged speed, distance, size or position of:
+385|Size or position of fixed object or obstacle|Vehicle conflicts|Misjudged speed, distance, size or position of:
+386|Of own vehicle|Vehicle conflicts|Misjudged speed, distance, size or position of:
+387|Misjudged intentions of another party|Vehicle conflicts|Misjudged speed, distance, size or position of:
+400|NA|General driver|Inexperience
+401|In driving in fast, complex or heavy traffic|General driver|Inexperience
+402|New driver showed inexperience|General driver|Inexperience
+403|Driving unfamiliar vehicle|General driver|Inexperience
+404|Overseas / migrant driver fails to adjust to NZ road rules and road conditions|General driver|Inexperience
+405|Driver under instruction|General driver|Inexperience
+406|At towing trailer / other vehicle|General driver|Inexperience
+407|Driver over-reacted|General driver|Inexperience
+408|Unsupervised cyclist|General driver|Inexperience
+410|NA|General driver|Fatigue (drowsy, tired, fell asleep)
+411|Long trip|General driver|Fatigue (drowsy, tired, fell asleep)
+412|Lack of sleep|General driver|Fatigue (drowsy, tired, fell asleep)
+413|Exhaust fumes|General driver|Fatigue (drowsy, tired, fell asleep)
+414|Worked long hours before driving|General driver|Fatigue (drowsy, tired, fell asleep)
+415|Exceeded driving hours|General driver|Fatigue (drowsy, tired, fell asleep)
+420|NA|General driver|Incorrect use of vehicle controls
+421|Started in gear|General driver|Incorrect use of vehicle controls
+422|Stalled engine|General driver|Incorrect use of vehicle controls
+423|Wrong pedal|General driver|Incorrect use of vehicle controls
+424|Footrest, stand|General driver|Incorrect use of vehicle controls
+425|Ignition turned off (steering locked)|General driver|Incorrect use of vehicle controls
+426|Lights not switched on|General driver|Incorrect use of vehicle controls
+427|Foot slipped or caught under pedal|General driver|Incorrect use of vehicle controls
+428|Parking brake not fully applied|General driver|Incorrect use of vehicle controls
+429|Trailer coupling or safety chain not secured|General driver|Incorrect use of vehicle controls
+430|NA|General driver|Showing off
+431|Racing|General driver|Showing off
+432|Playing chicken|General driver|Showing off
+433|Wheel spins / wheelies / doughnuts / drifting|General driver|Showing off
+434|Intimidating driving|General driver|Showing off
+440|NA|General driver|Parked or stopped
+441|Inadequately lit at night: (not lit by street lights or park lights off)|General driver|Parked or stopped
+442|At point of limited visibility|General driver|Parked or stopped
+443|Not as close as practicable to side of road|General driver|Parked or stopped
+444|On incorrect side of road|General driver|Parked or stopped
+445|Double parked|General driver|Parked or stopped
+446|In 'No Stopping' area|General driver|Parked or stopped
+447|Not clear of rail crossing|General driver|Parked or stopped
+448|In cycle or Transit lane|General driver|Parked or stopped
+500|NA|General person|Illness and disability
+501|Illness with no warning e.g. heart attack, unexpected epilepsy)|General person|Illness and disability
+502|Physically disabled|General person|Illness and disability
+503|Defective vision|General person|Illness and disability
+504|Medical illness (not sudden) flu, diabetes|General person|Illness and disability
+505|Mental illness (depression, psychosis)|General person|Illness and disability
+506|Suicidal (but not successful)|General person|Illness and disability
+507|Impaired ability due to old age|General person|Illness and disability
+510|NA|General person|Intentional or criminal
+511|Deliberate homicide (only if succeeded)|General person|Intentional or criminal
+512|Intentional collision|General person|Intentional or criminal
+513|Committed suicide (only if succeeded)|General person|Intentional or criminal
+514|Evading enforcement|General person|Intentional or criminal
+515|Object deliberately thrown at or dropped on vehicle / shot at|General person|Intentional or criminal
+516|Object thrown from vehicle|General person|Intentional or criminal
+517|Stolen vehicle|General person|Intentional or criminal
+520|NA|General person|Driver or passenger, boarding, leaving , in vehicle
+521|Boarding moving vehicle|General person|Driver or passenger, boarding, leaving , in vehicle
+522|Intentionally leaving moving vehicle|General person|Driver or passenger, boarding, leaving , in vehicle
+523|Riding in insecure position|General person|Driver or passenger, boarding, leaving , in vehicle
+524|Interfered with driver|General person|Driver or passenger, boarding, leaving , in vehicle
+525|Opened door inadvertently|General person|Driver or passenger, boarding, leaving , in vehicle
+526|Overloaded vehicle (with passengers)|General person|Driver or passenger, boarding, leaving , in vehicle
+527|Child playing in parked vehicle|General person|Driver or passenger, boarding, leaving , in vehicle
+530|NA|General person|Miscellaneous person
+531|Casualty drowned|General person|Miscellaneous person
+532|Casualty thrown from vehicle|General person|Miscellaneous person
+533|Equestrian not keeping to verge|General person|Miscellaneous person
+534|Cyclist or M/cyclist wearing dark clothing|General person|Miscellaneous person
+600|NA|Vehicles|Lights and reflectors at fault or dirty
+601|Dazzling headlights|Vehicles|Lights and reflectors at fault or dirty
+602|Headlights inadequate or no headlights|Vehicles|Lights and reflectors at fault or dirty
+603|Headlights failed suddenly|Vehicles|Lights and reflectors at fault or dirty
+604|Brake-lights or indicators faulty or not fitted|Vehicles|Lights and reflectors at fault or dirty
+605|Tail-lights inadequate or no tail-lights|Vehicles|Lights and reflectors at fault or dirty
+606|Reflectors inadequate or no reflectors|Vehicles|Lights and reflectors at fault or dirty
+607|Lights or reflectors obscured|Vehicles|Lights and reflectors at fault or dirty
+610|NA|Vehicles|Brakes
+611|Parking brake failed|Vehicles|Brakes
+612|Parking brake defective|Vehicles|Brakes
+613|Service brake failed|Vehicles|Brakes
+614|Service brake defective|Vehicles|Brakes
+615|Jack-knifed|Vehicles|Brakes
+620|NA|Vehicles|Steering
+621|Defective|Vehicles|Steering
+622|Failed suddenly|Vehicles|Steering
+630|NA|Vehicles|Tyres
+631|Puncture or blow-out|Vehicles|Tyres
+632|Worn tread on tyre|Vehicles|Tyres
+633|Incorrect tyre type|Vehicles|Tyres
+634|Mixed treads / space savers|Vehicles|Tyres
+640|NA|Vehicles|Windscreen or mirror
+641|Shattered windscreen|Vehicles|Windscreen or mirror
+642|Windscreen or rear window dirty|Vehicles|Windscreen or mirror
+643|Rear vision mirror not adjusted correctly|Vehicles|Windscreen or mirror
+644|No rear vision mirror|Vehicles|Windscreen or mirror
+645|Windscreen or rear window misted/frosted|Vehicles|Windscreen or mirror
+646|Inadequate or no sun-visors|Vehicles|Windscreen or mirror
+647|Inadequate or no windscreen wipers|Vehicles|Windscreen or mirror
+648|Cycle / Motorcycle visor, glasses, goggles or screen|Vehicles|Windscreen or mirror
+650|NA|Vehicles|Mechanical
+651|Engine failure|Vehicles|Mechanical
+652|Transmission failure (including chains and gears)|Vehicles|Mechanical
+653|Accelerator or throttle jammed|Vehicles|Mechanical
+660|NA|Vehicles|Body or chassis
+661|Body, chassis or frame (cycle, m/c) failure|Vehicles|Body or chassis
+662|Suspension failure|Vehicles|Body or chassis
+663|Failure of door catch or door not shut|Vehicles|Body or chassis
+664|Inadequate mudguards|Vehicles|Body or chassis
+665|Inadequate tow coupling|Vehicles|Body or chassis
+666|Inadequate or no safety chain|Vehicles|Body or chassis
+667|Bonnet catch failed|Vehicles|Body or chassis
+668|Wheel off|Vehicles|Body or chassis
+669|Broken axle|Vehicles|Body or chassis
+670|Inconspicuous colour|Vehicles|Body or chassis
+671|Blind spot|Vehicles|Body or chassis
+672|Seat belt / restraint failed|Vehicles|Body or chassis
+673|Air-bag failed to inflate (fully)|Vehicles|Body or chassis
+680|NA|Vehicles|Load
+681|Load interferes with driver|Vehicles|Load
+682|Not well secured or load moved|Vehicles|Load
+683|Over-hanging|Vehicles|Load
+684|Load obscured vision|Vehicles|Load
+685|Excess dimensions not adequately indicated|Vehicles|Load
+686|Over dimension vehicle or load|Vehicles|Load
+687|Load too heavy|Vehicles|Load
+688|Towed vehicle or trailer too heavy or incompatible|Vehicles|Load
+690|NA|Vehicles|Miscellaneous vehicle
+691|Emergency Vehicle attending emergency|Vehicles|Miscellaneous vehicle
+692|Vehicle caught fire|Vehicles|Miscellaneous vehicle
+693|Being towed|Vehicles|Miscellaneous vehicle
+694|Air-bag contributed to crash or injury|Vehicles|Miscellaneous vehicle
+695|Seatbelt / restraint absent or unusable|Vehicles|Miscellaneous vehicle
+696|Dangerous goods|Vehicles|Miscellaneous vehicle
+700|NA|Pedestrians|Walking along road
+701|Not keeping to footpath|Pedestrians|Walking along road
+702|Not keeping to side of road|Pedestrians|Walking along road
+703|Not facing oncoming traffic|Pedestrians|Walking along road
+704|Not on outside of blind curve|Pedestrians|Walking along road
+705|Wheeled ped inconsiderate or dangerous on footpath|Pedestrians|Walking along road
+710|NA|Pedestrians|Crossing road
+711|Walking heedless of traffic|Pedestrians|Crossing road
+712|Stepping out from behind vehicles|Pedestrians|Crossing road
+713|Running heedless of traffic|Pedestrians|Crossing road
+714|Failed to use pedestrian crossing when one within 20 metres|Pedestrians|Crossing road
+715|Waiting on roadway for moving traffic|Pedestrians|Crossing road
+716|Confused by traffic or stepped back|Pedestrians|Crossing road
+717|Suddenly stepped onto pedestrian crossing|Pedestrians|Crossing road
+718|Not complying with traffic signals or school patrols|Pedestrians|Crossing road
+719|Misjudged speed and / or distance of vehicle|Pedestrians|Crossing road
+720|NA|Pedestrians|Miscellaneous
+721|Pushing, working on or unloading vehicle|Pedestrians|Miscellaneous
+722|Playing on road or unnecessarily on road|Pedestrians|Miscellaneous
+723|Working on road|Pedestrians|Miscellaneous
+724|Wearing dark clothing|Pedestrians|Miscellaneous
+725|Vision obscured by umbrella or clothing|Pedestrians|Miscellaneous
+726|Child escaped from supervision|Pedestrians|Miscellaneous
+727|Unsupervised child|Pedestrians|Miscellaneous
+728|Sitting / lying on road|Pedestrians|Miscellaneous
+729|Pedestrian to /from school bus|Pedestrians|Miscellaneous
+730|Pedestrian behind reversing / manoeuvring vehicle|Pedestrians|Miscellaneous
+731|Overseas pedestrian|Pedestrians|Miscellaneous
+732|Pedestrian attention diverted eg cigarette, cell phone, music player|Pedestrians|Miscellaneous
+800|NA|Road|Slippery
+801|Rain|Road|Slippery
+802|Frost or ice|Road|Slippery
+803|Snow or hail|Road|Slippery
+804|Loose material on seal|Road|Slippery
+805|Mud|Road|Slippery
+806|Oil / Diesel / Fuel|Road|Slippery
+807|Painted markings|Road|Slippery
+808|Recently graded|Road|Slippery
+809|Surface bleeding / defective|Road|Slippery
+810|NA|Road|Surface
+811|Potholed|Road|Surface
+812|Uneven|Road|Surface
+813|Deep loose metal|Road|Surface
+814|High crown|Road|Surface
+815|Curve not well banked|Road|Surface
+816|Edge badly defined or gave way|Road|Surface
+817|Under construction or maintenance|Road|Surface
+818|Unusually narrow|Road|Surface
+819|Broken glass|Road|Surface
+820|NA|Road|Obstructed
+821|Fallen tree or branch|Road|Obstructed
+822|Slip or subsidence|Road|Obstructed
+823|Flood waters, large puddles, ford|Road|Obstructed
+824|Road works not adequately lighted|Road|Obstructed
+825|Road works not adequately signposted|Road|Obstructed
+826|Roadside object fell on vehicle|Road|Obstructed
+827|Object flicked up by vehicle|Road|Obstructed
+830|NA|Road|Visibility limited
+831|Curve|Road|Visibility limited
+832|Crest|Road|Visibility limited
+833|Building|Road|Visibility limited
+834|Trees|Road|Visibility limited
+835|Hedge or fence|Road|Visibility limited
+836|Scrub or long grass|Road|Visibility limited
+837|Bank|Road|Visibility limited
+838|Temporary obstruction, dust or smoke|Road|Visibility limited
+839|Parked vehicle|Road|Visibility limited
+840|NA|Road|Signs and signals
+841|Damaged, removed or malfunction|Road|Signs and signals
+842|Badly located|Road|Signs and signals
+843|Ineffective or inadequate|Road|Signs and signals
+844|Necessary|Road|Signs and signals
+845|Signals turned off|Road|Signs and signals
+850|NA|Road|Markings
+851|Faded|Road|Markings
+852|Difficult to see under weather conditions|Road|Markings
+853|Markings necessary|Road|Markings
+854|Not visible due to geometry or vehicles|Road|Markings
+855|Old markings not adequately removed|Road|Markings
+860|NA|Road|Street lighting
+861|Failed|Road|Street lighting
+862|Inadequate|Road|Street lighting
+863|Glare on wet road|Road|Street lighting
+864|Pedestrian crossing not adequately lighted|Road|Street lighting
+870|NA|Road|Raised islands and roundabouts
+871|Traffic island(s) difficult to see|Road|Raised islands and roundabouts
+872|Traffic island(s) Ineffective, badly located or designed|Road|Raised islands and roundabouts
+873|Cyclist squeeze point|Road|Raised islands and roundabouts
+900|NA|Miscellaneous|Weather
+901|Heavy rain|Miscellaneous|Weather
+902|Dazzling sun|Miscellaneous|Weather
+903|Strong wind|Miscellaneous|Weather
+904|Fog or mist|Miscellaneous|Weather
+905|Snow, sleet or hail|Miscellaneous|Weather
+910|NA|Miscellaneous|Animals
+911|Household pet rushed out or playing|Miscellaneous|Animals
+912|Farm animal straying|Miscellaneous|Animals
+913|Farm animal attended, but inadequate warning or unexpected|Miscellaneous|Animals
+914|Farm animal attended, but out of control|Miscellaneous|Animals
+915|Wild animal|Miscellaneous|Animals
+920|NA|Miscellaneous|Entering or leaving land use
+921|Roadside stall|Miscellaneous|Entering or leaving land use
+922|Service station|Miscellaneous|Entering or leaving land use
+923|Specialised liquor outlet|Miscellaneous|Entering or leaving land use
+924|Take away foods|Miscellaneous|Entering or leaving land use
+925|Shopping complex|Miscellaneous|Entering or leaving land use
+926|Car parking building / area|Miscellaneous|Entering or leaving land use
+927|Other commercial|Miscellaneous|Entering or leaving land use
+928|Industrial site|Miscellaneous|Entering or leaving land use
+929|Private house / farm|Miscellaneous|Entering or leaving land use
+930|Other non-commercial|Miscellaneous|Entering or leaving land use
+931|Mobile shop or vendor|Miscellaneous|Entering or leaving land use
+970|NA|Miscellaneous|Unconverted old codes
+977|Old 920: Equestrian|Miscellaneous|Unconverted old codes
+978|Old 950: Miscellaneous|Miscellaneous|Unconverted old codes
+979|Old 960: Special Codes|Miscellaneous|Unconverted old codes
+981|Old 131: Swinging wide on bend or intersection|Miscellaneous|Unconverted old codes
+982|Old 138: Lost control - head on collision|Miscellaneous|Unconverted old codes
+983|Old 147: When changing lanes|Miscellaneous|Unconverted old codes
+984|Old 157: Cut in|Miscellaneous|Unconverted old codes
+985|Old 188: At steady red/amber arrows|Miscellaneous|Unconverted old codes
+986|Old 225: Wrong way in one way street or other forbidden movement|Miscellaneous|Unconverted old codes
+987|Old 235: Misjudged speed of other vehicle|Miscellaneous|Unconverted old codes
+988|Old 236: Misjudged distance, size or position of vehicle|Miscellaneous|Unconverted old codes
+989|Old 238: In controlling skid|Miscellaneous|Unconverted old codes
+990|Old 273: Defective vision or illness (not sudden)|Miscellaneous|Unconverted old codes
+991|Old 503: In face of traffic|Miscellaneous|Unconverted old codes
+992|Old 504: Opened door in path of another party|Miscellaneous|Unconverted old codes
+993|Old 512: Interfered with driver or overloaded vehicle|Miscellaneous|Unconverted old codes
+994|Old 737: Physical defect or old age|Miscellaneous|Unconverted old codes
+995|Old 738: Unattended child|Miscellaneous|Unconverted old codes
+996|Old 952: Suicide|Miscellaneous|Unconverted old codes
+997|Old 400: Specific cyclist faults|Miscellaneous|Unconverted old codes
+998|Old 930: Bicycle faults|Miscellaneous|Unconverted old codes
