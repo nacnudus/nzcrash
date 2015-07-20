@@ -4,7 +4,7 @@ output:
     variant: markdown_github
 ---
 
-```{r}
+```{r, message = FALSE}
 library(nzcrash)
 library(dplyr)
 library(tidyr)

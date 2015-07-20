@@ -1,32 +1,8 @@
 ``` {.r}
 library(nzcrash)
 library(dplyr)
-```
-
-    ## 
-    ## Attaching package: 'dplyr'
-    ## 
-    ## The following object is masked from 'package:stats':
-    ## 
-    ##     filter
-    ## 
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-``` {.r}
 library(tidyr)
 library(magrittr)
-```
-
-    ## 
-    ## Attaching package: 'magrittr'
-    ## 
-    ## The following object is masked from 'package:tidyr':
-    ## 
-    ##     extract
-
-``` {.r}
 library(stringr)
 library(ggplot2)
 library(scales)
