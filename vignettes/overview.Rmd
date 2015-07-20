@@ -25,6 +25,8 @@ library(lubridate)
 This package redistributes crash statistics already available from the
 New Zealand Transport Agency, but in a more convenient form.
 
+It's a large package (over 20 megabytes, compressed).
+
 ## Datasets
 
 The `crashes` dataset describes most facts about a crash.  The datasets `causes`,
