@@ -38,7 +38,7 @@ dataset.
 ## Up-to-date-ness
 
 The data was last scraped from the NZTA website on 2015-08-19.  At
-that time, the NZTA had published data up to the 2015-03-10.
+that time, the NZTA had published data up to 2015-03-10.
 
 
 ```r

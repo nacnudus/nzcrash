@@ -37,7 +37,7 @@ dataset.
 ## Up-to-date-ness
 
 The data was last scraped from the NZTA website on `r Sys.Date()`.  At
-that time, the NZTA had published data up to the `r max(crashes$date)`.
+that time, the NZTA had published data up to `r max(crashes$date)`.
 
 ```{r}
 dim(crashes)
