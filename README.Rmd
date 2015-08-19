@@ -17,8 +17,10 @@ library(lubridate)
 
 # nzcrash
 
-This package redistributes crash statistics already available from the
-New Zealand Transport Agency, but in a more convenient form.
+This package redistributes [crash
+statistics](http://www.nzta.govt.nz/resources/crash-analysis-system-data/)
+already available from the New Zealand Transport Agency, but in a more
+convenient form.
 
 It's a large package (over 20 megabytes, compressed).
 
