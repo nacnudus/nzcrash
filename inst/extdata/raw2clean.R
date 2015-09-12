@@ -102,7 +102,7 @@ urls <-
   html(source_url) %>% 
   html_nodes(".publication__sections--link") %>% # Get the links
   html_attrs %>%                       # Get the metadata
-  unzip %>%                            # Convert from a list to a data.frame
+  zip(.simplify = TRUE) %>%                            # Convert from a list to a data.frame
   as_data_frame %>%
   select(-class) %>%                   # Drop unnecessary metadata
   rename(url = href) %>%               # Nice column names
@@ -127,15 +127,14 @@ crashes <-
                      , col_types = col_types))
 
 # Bind all csv datasets together
-crashes  <- bind_rows %>% smash %>% invoke(crashes$data) %>% .[[1]]
+crashes %<>% .[[1]] %>% bind_rows
 
 # Drop dummy column
 crashes %<>% select(-DUMMY)
 
 # Make nice column names -------------------------------------------------------#
 
-crashes %<>%
-  set_colnames(col_names_nice)
+crashes %<>% set_colnames(col_names_nice)
 
 # Make nice dates --------------------------------------------------------------#
 
