@@ -117,7 +117,7 @@ crashes have coordinates.  These have been converted from the NZTM projection to
 the WGS84 projection for convenience with packages like `ggmap`.
 
 Because New Zealand is tall and skinny, you can easily spot the main population
-centres with a simple boxplot.
+centres with a simple histogram.
 
 ```{r}
 crashes %>%

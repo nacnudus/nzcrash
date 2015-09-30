@@ -1,10 +1,3 @@
----
-output:
-  md_document:
-    variant: markdown_github
----
-
-
 ```r
 library(nzcrash)
 library(dplyr)
@@ -37,7 +30,7 @@ dataset.
 
 ## Up-to-date-ness
 
-The data was last scraped from the NZTA website on 2015-08-19.  At
+The data was last scraped from the NZTA website on 2015-09-30.  At
 that time, the NZTA had published data up to 2015-03-10.
 
 
@@ -88,23 +81,24 @@ crashes %>%
 ```
 ## Source: local data frame [16 x 2]
 ## 
-##    year fatalities
-## 1  2000        462
-## 2  2001        455
-## 3  2002        405
-## 4  2003        461
-## 5  2004        435
-## 6  2005        405
-## 7  2006        393
-## 8  2007        421
-## 9  2008        366
-## 10 2009        384
-## 11 2010        375
-## 12 2011        284
-## 13 2012        308
-## 14 2013        256
-## 15 2014        279
-## 16 2015         34
+##     year fatalities
+##    (dbl)      (int)
+## 1   2000        462
+## 2   2001        455
+## 3   2002        405
+## 4   2003        461
+## 5   2004        435
+## 6   2005        405
+## 7   2006        393
+## 8   2007        421
+## 9   2008        366
+## 10  2009        384
+## 11  2010        375
+## 12  2011        284
+## 13  2012        308
+## 14  2013        256
+## 15  2014        279
+## 16  2015         34
 ```
 
 ## Severity
@@ -182,7 +176,7 @@ crashes have coordinates.  These have been converted from the NZTM projection to
 the WGS84 projection for convenience with packages like `ggmap`.
 
 Because New Zealand is tall and skinny, you can easily spot the main population
-centres with a simple boxplot.
+centres with a simple histogram.
 
 
 ```r
@@ -210,6 +204,7 @@ crashes %>%
 ## Source: local data frame [12 x 2]
 ## 
 ##               vehicle      n
+##                (fctr)  (int)
 ## 1                 Car 728119
 ## 2            Van, ute  87927
 ## 3  SUV or 4x4 vehicle  48269
@@ -249,6 +244,7 @@ crashes %>%
 ## Source: local data frame [2 x 4]
 ## 
 ##                                     object      fatal   serious     minor
+##                                     (fctr)      (dbl)     (dbl)     (dbl)
 ## 1  Utility pole, includes lighting columns 0.04432701 0.2149482 0.7407248
 ## 2 Trees, shrubbery of a substantial nature 0.06742092 0.2459016 0.6866774
 ```
@@ -294,6 +290,7 @@ causes %>%
 ## Source: local data frame [8 x 2]
 ## 
 ##                                cause     n
+##                               (fctr) (int)
 ## 1                          Cornering 37861
 ## 2                        On straight 10196
 ## 3                                 NA  7119
@@ -352,18 +349,20 @@ crashes %>%
 ```
 ## Source: local data frame [55 x 2]
 ## 
-##                                                                  cause  n
-## 1  Behind when changing lanes position or direction (includes U-turns) 26
-## 2                                                                   NA 20
-## 3          When required to give way to traffic from another direction 10
-## 4                                                Wandering or wobbling  8
-## 5                                                     At Give Way sign  4
-## 6                           Cyclist or M/cyclist wearing dark clothing  4
-## 7                                        Driving or riding on footpath  4
-## 8                                             On left without due care  4
-## 9                              When pulling out or moving to the right  4
-## 10                                                 At steady red light  3
-## ..                                                                 ... ..
+##                                                                  cause
+##                                                                 (fctr)
+## 1  Behind when changing lanes position or direction (includes U-turns)
+## 2                                                                   NA
+## 3          When required to give way to traffic from another direction
+## 4                                                Wandering or wobbling
+## 5                                                     At Give Way sign
+## 6                           Cyclist or M/cyclist wearing dark clothing
+## 7                                        Driving or riding on footpath
+## 8                                             On left without due care
+## 9                              When pulling out or moving to the right
+## 10                                                 At steady red light
+## ..                                                                 ...
+## Variables not shown: n (int)
 ```
 
 I think we all know what "Wandering or wobbling" means.
