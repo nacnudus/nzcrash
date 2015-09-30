@@ -1,6 +1,6 @@
 Package: nzcrash
 Title: New Zealand Motor Vehicle Crash Data
-Version: 0.0.0.9000
+Version: 0.0.1.9000
 Authors@R: person("Duncan", "Garmonsway", email = "duncan.garmonsway@gmail.com", role = c("aut", "cre"))
 Description: Redistributes crash data already available from the New Zealand Transport Agency, but in a more convenient form.
 Depends: R (>= 3.2.1)
