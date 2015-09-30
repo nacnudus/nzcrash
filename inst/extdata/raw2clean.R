@@ -217,12 +217,14 @@ vehicles %<>%
   mutate(vehicle_id = as.character(vehicle)
          , vehicle = factor(type
                        , levels = c("C", "V", "X", "B", "L", "4", "T", "M", "P",
-                                    "S", "O")
+                                    "S", "E", "K", "Q", "H", "O") # U is not defined in the data dictionary
                        , labels = c("Car", "Van, ute"
                                     , "Taxi or taxi van", "Bus"
                                     , "School bus"
                                     , "SUV or 4x4 vehicle", "Truck"
                                     , "Motorcycle", "Moped", "Bicycle"
+                                    , "Pedestrian", "Skateboard, in-line skater, etc."
+                                    , "Equestrian", "Wheeled pedestrian (wheelchairs, etc.)"
                                     , "Other or unknown"))) %>%
 select(id, vehicle_id, vehicle)
 
@@ -316,7 +318,6 @@ crashes %<>%
                                                   , "serious"
                                                   , "minor"
                                                   , 'non-injury')))
-
 
 # Make certain columns factors for empty levels
 crashes %<>%
