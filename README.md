@@ -1,15 +1,6 @@
-```r
-library(nzcrash)
-library(dplyr)
-library(tidyr)
-library(magrittr)
-library(stringr)
-library(ggplot2)
-library(scales)
-library(lubridate)
-```
-
 # nzcrash
+
+***As of September 2016, disaggregated crash data is now published here: http://www.nzta.govt.nz/safety/safety-resources/road-safety-information-and-tools/disaggregated-crash-data/.  It is somewhat different from the data provided in this package.***
 
 This package redistributes [crash
 statistics](http://www.nzta.govt.nz/resources/crash-analysis-system-data/)
